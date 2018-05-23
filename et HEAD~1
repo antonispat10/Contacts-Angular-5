@@ -1,0 +1,17 @@
+[33mcommit fa53f51c855804d6c4a2bff34be0f411fbb8bffb[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m)[m
+Author: Antonis <antonispat10@gmail.com>
+Date:   Wed May 23 18:43:28 2018 +0300
+
+    s
+
+[33mcommit e5c9674d0700041365615c75b480653ddb085e32[m[33m ([m[1;31morigin/developing[m[33m, [m[1;32mdeveloping[m[33m)[m
+Author: Antonis <antonispat10@gmail.com>
+Date:   Wed May 23 18:25:14 2018 +0300
+
+    creating components,services,routes
+
+[33mcommit 108ebffd7dc7d777b8e98d9a2af822a7388ab4d2[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Angular CLI <angular-cli@angular.io>
+Date:   Wed May 23 16:37:18 2018 +0300
+
+    chore: initial commit from @angular/cli

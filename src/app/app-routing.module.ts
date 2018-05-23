@@ -4,6 +4,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { ContactItemComponent } from './contacts/contact-list//contact-item/contact-item.component';
 import { ContactDetailComponent } from './contacts/contact-detail/contact-detail.component';
+import { ContactEditComponent } from './contacts/contact-edit/contact-edit.component';
 
 
 
@@ -11,7 +12,6 @@ import { ContactDetailComponent } from './contacts/contact-detail/contact-detail
 const appRoutes: Routes = [
   { path: '', redirectTo: '/contacts', pathMatch: 'full' },
   { path: 'contacts', component: ContactsComponent, children: [
-      { path: '', component: ContactsComponent },
       { path: 'new', component: ContactEditComponent },
       { path: ':id', component: ContactDetailComponent },
       { path: ':id/edit', component: ContactEditComponent }
