@@ -4,8 +4,14 @@
      <button class="btn btn-success" (click)="onNewContact()" >New Contact</button>
   </div>
 </div>
+<br>
+
 <div class="row">
     <br>
     <div class="col-xs-12">
+        <app-contact-item 
+        *ngFor="let contactEl of contacts; let i=index" [contact]="contactEl" [index]="i" 
+        ></app-contact-item>
     </div>
   </div>
+  <br>

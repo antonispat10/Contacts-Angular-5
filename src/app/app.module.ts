@@ -11,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { ContactService } from './contacts/contact.service';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactEditComponent } from './contacts/contact-edit/contact-edit.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DropdownDirective } from './dropdown.directive';
 
 
 
@@ -24,9 +26,12 @@ import { ContactEditComponent } from './contacts/contact-edit/contact-edit.compo
     ContactItemComponent,
     HeaderComponent,
     ContactEditComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
 
   ],
