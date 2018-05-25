@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactService } from '.././contact.service';
-import {Contact} from '.././contact.model';
+import { Contact } from '.././contact.model';
 import { Router,ActivatedRoute } from '@angular/router';
 
 
@@ -16,7 +16,7 @@ export class ContactListComponent implements OnInit {
 
   ngOnInit() {
     
-    this.contactService.getContacts();
+    this.contacts = this.contactService.getContacts();
   }
 
 
