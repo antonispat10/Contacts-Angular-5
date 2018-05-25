@@ -44,4 +44,7 @@ export class ContactService {
 
   }
 
+  deleteContact(index:number) {
+    this.contacts.splice(index,1);
+  }
 }
